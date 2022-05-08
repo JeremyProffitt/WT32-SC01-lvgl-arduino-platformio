@@ -1,0 +1,13 @@
+
+tasks:
+  - name: install pio & aws cli
+    init: |
+      echo hello
+      echo hello
+    command: |
+      sudo pip install -U platformio
+      curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "/home/gitpod/awscliv2.zip"
+      unzip /home/gitpod/awscliv2.zip -d /home/gitpod
+      sudo /home/gitpod/aws/install
+      pio run
+      clear

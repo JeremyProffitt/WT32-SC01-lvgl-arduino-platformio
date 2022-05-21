@@ -5,6 +5,7 @@ The WT32-SC01 is a ESP32 Development board with a 3.5-inch color touch screen
 
 * platformio run
 * platformio run -t upload
+* pio remote run -t upload
 
 ## "Arduino" Example
 Fork of [WT32-SC01-Exp](https://github.com/seaniefs/WT32-SC01-Exp) with platformio Support
